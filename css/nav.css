@@ -1,0 +1,82 @@
+
+
+.nav-bar {
+    height: 80px;
+    background-color: #ffffff ;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    
+
+}
+
+.nav-logo {
+    width: 268px;
+    height: 33px;
+    margin-left: 17.5%;
+    margin-top: 1%;
+
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 1%;
+    padding: 1.33em 0;
+}
+
+.nav-item {
+    padding: 0 0.6em;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: .9375rem;
+}
+
+.is-current {
+    color: #00b39b;
+}
+
+.is-career:hover {
+    color: #00b39b;
+    text-shadow: none;
+}
+
+
+
+.nav-dropdown-content {
+    display: none;
+   
+    background-color: #f1f1f1;
+    min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.is-departments:hover .nav-dropdown-content {
+    display: block !important;
+}
+.is-departments:hover {
+    color: #00b39b;
+}
+
+.nav-dropdown-items{
+    list-style: none;
+ 
+    
+}
+
+
+
+.nav-dropdown-link {
+    text-decoration: none;
+    color: #ababab;
+
+}
+.nav-dropdown-link:hover{
+    color: #00b39b;
+}
+
