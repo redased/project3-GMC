@@ -45,3 +45,15 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+.for-patients {
+    background-color: green;
+}
+
+.for-doctors {
+    background-color: blue;
+}
+
+.for-clinics {
+    background-color: dark;
+}
