@@ -1,29 +1,35 @@
-
-
 .nav-bar {
     height: 80px;
     background-color: #ffffff ;
-    display: flex;
-    align-content: center;
     justify-content: space-between;
     
 
 }
 
+
 .nav-logo {
+    display: inline-block;
     width: 268px;
     height: 33px;
     margin-left: 17.5%;
     margin-top: 1%;
+    
 
 }
 
 .nav-items {
+    display: inline-block;
     list-style: none;
-    display: flex;
-    margin-right: 100px;
+    margin-left: 23%;
     margin-top: 1%;
-    padding: 1.33em 0;
+
+    
+}
+.nav-items > li {
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+
 }
 
 .nav-item {
@@ -45,19 +51,24 @@
     text-shadow: none;
 }
 
-
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
 .nav-dropdown-content {
     display: none;
-   
-    background-color: #f1f1f1;
-    min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 0;
+    color: #b3b3b3;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 20px 0 #d3cfc9;
+    z-index: 1;
 }
-
-.is-departments:hover .nav-dropdown-content {
-    display: block !important;
+.dropdown:hover .nav-dropdown-content {
+    display: block;
 }
 .is-departments:hover {
     color: #00b39b;
@@ -80,3 +91,30 @@
     color: #00b39b;
 }
 
+.nav-dropdown-content a {
+    color: #747474;
+    line-height: 120%;
+    padding: 12px 16px !important;
+    text-decoration: none;
+    display: block;
+  }
+
+  #logo-docplanner {
+    text-align: center;
+  }
+
+  .details {
+    margin: 2.0625rem auto 3.75rem;
+  }
+
+  h1 {
+
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: normal;
+
+
+  }
