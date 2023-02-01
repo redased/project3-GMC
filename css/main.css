@@ -64,24 +64,27 @@ padding: 2em 2em 0;
 }
 
 .search img {
-    margin-bottom: -.4em;
+    display: block;
+   
 }
 .search h1 {
+    display: block;
     font-size: 1.625em;
     font-weight: 400;
     color: #fff;
-    margin: .3em 0;
-    display: flex;
+   
+    
   
 
 }
 
 .search h2 {
+    display: block;
     font-size: 1.5em;
     font-weight: 300;
     font-family: Work Sans,Arial,sans-serif;;
     line-height: 1.2;
-    margin: 0;
+    
     color: #fff;
   
 }
@@ -106,9 +109,7 @@ padding: 2em 2em 0;
 
 
 
-  élément {
-
-  }
+ 
   .search .style-select select {
   
       width: 100%;
@@ -122,4 +123,10 @@ padding: 2em 2em 0;
       text-decoration: underline;
       cursor: pointer;
   
+  }
+
+  .search-patients > img h1 h2 {
+    text-align: left;
+    max-width: calc(100% - 40px);
+    margin: 10px 45px;
   }
