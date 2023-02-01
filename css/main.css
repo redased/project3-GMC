@@ -181,3 +181,18 @@ select  {
 .search_end {
     margin-top: 70px; 
 }
+
+.global-company {
+    float: left;
+    width: 20%;
+    
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-left: 17.5%;
+}
+
+.global-company > h1 {
+    font-size:  1.625em;
+}
