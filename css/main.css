@@ -41,19 +41,85 @@ body {
 
 .grid-search {
     display: grid;
-    grid-template-columns: repeat(3,200px);
+    grid-template-columns: repeat(3,320px);
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    border-radius: 10px;
+padding: 2em 2em 0;
+
+   
 }
 
 .for-patients {
-    background-color: green;
+    background-color: #00ccb1;
+    display: flex;
 }
 
 .for-doctors {
-    background-color: blue;
+    background-color: #3d83df;
 }
 
 .for-clinics {
-    background-color: dark;
+    background-color: #1b2734;
 }
+
+.search img {
+    margin-bottom: -.4em;
+}
+.search h1 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    display: flex;
+  
+
+}
+
+.search h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: Work Sans,Arial,sans-serif;;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+  
+}
+
+.grid-search div {
+    border-radius: 10px;
+}
+
+.grid-search > * {
+    transition: all .35s ease 0s;
+}
+
+.search-categorie{
+    transition: all .2s ease 0s;
+}
+
+
+.elements > .for-patients {
+    transform: translate(0);
+    opacity: 1;
+  }
+
+
+
+  élément {
+
+  }
+  .search .style-select select {
+  
+      width: 100%;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0 2em 0 0;
+      -webkit-appearance: none;
+      outline: 0;
+      text-transform: none;
+      text-decoration: underline;
+      cursor: pointer;
+  
+  }
