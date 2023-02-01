@@ -41,18 +41,19 @@ body {
 
 .grid-search {
     display: grid;
-    grid-template-columns: repeat(3,320px);
+    grid-template-columns: repeat(3,315px);
     justify-content: center;
     gap: 20px;
     border-radius: 10px;
-padding: 2em 2em 0;
+    padding: 2em 2em 0;
 
    
 }
 
 .for-patients {
     background-color: #00ccb1;
-    display: flex;
+    
+    
 }
 
 .for-doctors {
@@ -63,23 +64,24 @@ padding: 2em 2em 0;
     background-color: #1b2734;
 }
 
-.search img {
-    display: block;
+.for-patients > img {
+    position: absolute;
+    margin-bottom: -.4em;
+    background-color: #3d83df;
+    max-width: 100%;
+    height: auto;
    
 }
 .search h1 {
-    display: block;
-    font-size: 1.625em;
+   display: flex;
+    font-size:  1.625em;
     font-weight: 400;
     color: #fff;
-   
-    
-  
-
+    margin: .3em 0;
 }
 
-.search h2 {
-    display: block;
+.search  h2 {
+    display: flex;
     font-size: 1.5em;
     font-weight: 300;
     font-family: Work Sans,Arial,sans-serif;;
@@ -101,7 +103,17 @@ padding: 2em 2em 0;
     transition: all .2s ease 0s;
 }
 
+.search-patients {
+    padding: 2em 2em 0;
+}
 
+.search-doctors {
+    padding: 2em 2em 0;
+}
+
+.search-clinics {
+    padding: 2em 2em 0;
+}
 .elements > .for-patients {
     transform: translate(0);
     opacity: 1;
@@ -110,23 +122,62 @@ padding: 2em 2em 0;
 
 
  
-  .search .style-select select {
+select  {
   
       width: 100%;
       background: transparent;
+      color: #ffff;
       border: 0;
       border-radius: 0;
       padding: 0 2em 0 0;
-      -webkit-appearance: none;
       outline: 0;
       text-transform: none;
       text-decoration: underline;
       cursor: pointer;
-  
+      font-size: 20px;
+
+      
+  }
+.select_doctors{
+    margin-top: 80px; display:inline-block;
+}
+
+.select_clinics_2_20{
+    margin-top: 40px; display:inline-block;
+    }
+    
+    .select_patients{
+        margin-top: 80px; display:inline-block;
+        }
+        .more_20_2{
+            margin-top: 15px; display:inline-block;
+        }
+        .select_clinics_more_20{
+            margin-bottom: 30px; display:inline-block;
+            }
+  option {
+    color: black;
+    font-size: 16px;
   }
 
-  .search-patients > img h1 h2 {
-    text-align: left;
-    max-width: calc(100% - 40px);
-    margin: 10px 45px;
+  #width_options {
+    
+        width: 130px;   
+        
+
   }
+  #width_options_more {
+    
+    width: 210px;   
+    
+
+}
+.company > h1 {
+    color:#00ccb1;
+    width: 20px;
+    font-size: 22px;
+}
+
+.search_end {
+    margin-top: 70px; 
+}
