@@ -185,7 +185,7 @@ select  {
 .global-company {
     
     display: flex;
-    width: 16%;
+    width: 20%;
     position: left;
     margin: .25em 0 .35em;
     padding-right: 1em;
@@ -196,26 +196,32 @@ select  {
 }
 
 .global-company > h1 {
+    display: inline-block;
     font-size:  1.625em;
+    height:80px;
+    width:auto;
     
 }
 
 .company-ul {
-    display: flex;
+    display: inline-block;
    
-   
-    
 }
 
 
 .company-list {
     display: inline-block;
     text-decoration: none;
-    font-size: 1rem;
+    
+    list-style: none;
+
+    padding: 0 20px;
+
    
 }
 
 .company-list  a path {
     transition: all .2s ease 0s;
     fill: hsla(0,0%,67%,.7);
+    font-size: 1rem;
 }
