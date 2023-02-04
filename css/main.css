@@ -72,7 +72,7 @@ body {
     height: auto;
    
 }
-.search h1 {
+.search-categorie h1 {
    display: flex;
     font-size:  1.625em;
     font-weight: 400;
@@ -99,7 +99,7 @@ body {
     transition: all .35s ease 0s;
 }
 
-.search-categorie{
+.search-categorie .search-patients{
     transition: all .2s ease 0s;
 }
 
@@ -172,56 +172,133 @@ select  {
     
 
 }
-.company > h1 {
-    color:#00ccb1;
-    width: 20px;
-    font-size: 22px;
-}
+
 
 .search_end {
     margin-top: 70px; 
 }
 
 .global-company {
-    
+    margin: 2.5rem auto 3.125rem;
+    height: 5em;
+    max-width: 1000px;
     display: flex;
-    width: 20%;
-    position: left;
-    margin: .25em 0 .35em;
-    padding-right: 1em;
-    font-weight: 300;
-    letter-spacing: -.3px;
-    margin-left: 17.5%;
-    text-align: center;
-}
-
-.global-company > h1 {
-    display: inline-block;
-    font-size:  1.625em;
-    height:80px;
-    width:auto;
-    
-}
-
-.company-ul {
-    display: inline-block;
    
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.global-company {
+    
+   /* background-color: #fefdfc;
+    height: 5em;
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    padding: 30px 1.25em;
+    align-items: center;
+    justify-content: space-between;*/
 }
 
 
-.company-list {
-    display: inline-block;
-    text-decoration: none;
-    
-    list-style: none;
 
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
     padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+  }
 
+  .global-company h1 {
+    /* width: 33%;
+     margin: 0.25em 0 0.35em;
+     padding-right: 1em;*/
    
+   
+       font-size:  1.625em;
+       color: #00b39b;
+      padding-top: 100px;
+       font-family: Work Sans,Arial,sans-serif;
+       font-weight: normal;
+       
+   
+   }
+.company-ul {
+    
+  /*  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 100%;
+    float:left; */
+
+    align-items: center;
+    padding-top: 52px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 0;
+list-style: none;
+width: 67%;
+    }
+
+
+.nav-separator {
+   /* height: 24px;
+    width: 15px;
+    margin: 4em 5.5em;
+    background-color: #fefdfc;*/
+    height: 24px;
+    width: 20px;
+    margin: 0 .5em;
 }
 
-.company-list  a path {
-    transition: all .2s ease 0s;
-    fill: hsla(0,0%,67%,.7);
+.company-ul ul {
+   display: flex;
+  
+}
+.company-ul li {
+    /*gap: 20px;
+    font-size: 1rem;
+display: inline-block;
+margin-top: 0;
+padding: 5px 0 5px 5px;
+width: 25%;*/
+gap: 10px;
+font-size: 1rem;
+display: inline-block;
+margin-top: 0;
+padding: 3px 0 3px 3px;
+width: 25%;
+line-height:5px;
+}
+
+
+
+a .svg-class:hover path{
+   
+    fill: hsl(172,100%,35%,.8);
     font-size: 1rem;
 }
+
+.logo-svg {
+   
+    filter: grayscale(100%);
+}
+/*.logo-jameda:hover img{
+    -webkit-filter: invert(1);
+    filter: hsl(172,100%,35%,.8);
+
+    sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0)
+ }
+*/
+
+ .logo-svg:hover {
+   
+    filter: grayscale(0%);
+
+}
+
