@@ -260,24 +260,30 @@ width: 67%;
    display: flex;
   
 }
-.company-ul li {
+.company-ul .logo-svg li {
     /*gap: 20px;
     font-size: 1rem;
 display: inline-block;
 margin-top: 0;
 padding: 5px 0 5px 5px;
 width: 25%;*/
-gap: 5px;
+
 font-size: 1rem;
 display: inline-block;
-margin-top: 0;
+margin-top: auto;
 padding: 5px 0 5px 5px;
-width: 25%;
+width: 33%;
 
 }
 
+.clinicloud .gipo {
 
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: auto;
 
+    width: 12.5;
+}
 a .svg-class:hover path{
    
     fill: hsl(172,100%,35%,.8);
@@ -298,7 +304,14 @@ a .svg-class:hover path{
 
  .logo-svg:hover {
    
-    filter: grayscale(0%);
+    filter: grayscale(0);
 
 }
 
+.logo-svg-gipocloud {
+    filter: grayscale(100%);
+}
+
+.logo-svg-gipocloud:hover {
+    filter: grayscale(0);
+}
