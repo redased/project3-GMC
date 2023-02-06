@@ -1,3 +1,10 @@
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+  }
+
+
 
 .sticky {
     position: fixed;
