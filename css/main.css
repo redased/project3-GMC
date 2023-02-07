@@ -449,3 +449,151 @@ line-height: 1.7142857143;
     margin-top: 20px;
     text-align: center;
  }
+
+ /*.city {
+    display: grid;
+    grid-template-columns: repeat(3,20px);
+ }*/
+
+ .city .office {
+    width: 33.33%;
+    float: left;
+    border-radius: 80px;
+    font-family: Roboto;
+ }
+a {
+    text-decoration: none;
+}
+ .office_desc {
+    
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+ }
+
+ .office_desc .btn {
+    float: right;
+  }
+  .btn--small {
+    margin-right: 10px;
+    font-size: .025rem;
+    padding: 1em 1.5em;
+  }
+ .btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .65rem;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    width: 90.7px;
+    height: 5px;
+    text-align: center;
+  }
+
+  .btn:hover {
+    color: #fff;
+    background: #1662c6;
+  }
+
+.office_inner{
+    color: #747474;
+    font-family: Roboto,Arial,sans-serif;
+    width: 311px;
+    height: 350.15px;
+} 
+
+.city-opening {
+    margin-left: -70px;
+}
+
+.sep_city {
+    margin-top: 40px;
+    color:#fff;
+}
+
+.text_vide {
+    color: #ffff;
+}
+
+.join_us {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+   
+    text-align: center;
+}
+
+.join_us_header h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: .75em;
+
+    font-family: Work Sans,Arial,sans-serif;
+font-weight: 300;
+letter-spacing: -.3px;
+  
+
+margin: 5rem auto;
+}
+
+.sep_join {
+    margin-top: 80px;
+    height: 280px;
+    color: #ffff;
+}
+.btn_see {
+    margin-top: -100px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+  }
+
+  .line_footer{
+    margin-top: 50px;
+    display: block;
+    background-color: #f4f6f6;
+    width: 100%;
+    height: 1px;
+  }
+.footer_doc p {
+    font-size: 12px;
+color: #ababab;
+text-align: center;
+}
+.footer_doc a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+  
+}
