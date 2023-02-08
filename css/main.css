@@ -247,12 +247,9 @@ width: 67%;
 
 
 .nav-separator {
-   /* height: 24px;
-    width: 15px;
-    margin: 4em 5.5em;
-    background-color: #fefdfc;*/
+   
     height: 24px;
-    width: 20px;
+    width: 35px;
     margin: 0 .5em;
 }
 
@@ -261,18 +258,15 @@ width: 67%;
   
 }
 .company-ul .logo-svg li {
-    /*gap: 20px;
-    font-size: 1rem;
-display: inline-block;
-margin-top: 0;
-padding: 5px 0 5px 5px;
-width: 25%;*/
+   
 
-font-size: 1rem;
+font-size: 1.5rem;
 display: inline-block;
-margin-top: auto;
-padding: 5px 0 5px 5px;
-width: 33%;
+padding: 20px;
+margin-top: 20px;
+padding: 6px 0 6px 6px;
+width: 39%;
+gap:10px;
 
 }
 
@@ -404,7 +398,7 @@ line-height: 1.7142857143;
  .img_h3_p{
     margin-top: 40px;
  }
- .img_h3_p {
+ .img_h3_p_flag {
     margin-top: 20px;
  }
 
